@@ -1,0 +1,15 @@
+org_name: nullstone
+name: aws-gmail-smtp-access
+friendly_name: Gmail SMTP Access
+description: Connects your application to a Gmail SMTP host to provide the necessary egress for sending email
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: gmail
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: true
