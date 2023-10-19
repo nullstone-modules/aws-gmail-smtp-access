@@ -5,7 +5,7 @@ This module takes the credentials configured in this block and injects them into
 ### Ports
 The following ports are opened for egress in order to allow your outbound smtp request.
 587 - unsecured port
-586 - secured port using TLS
+465 - secured port using TLS
 
 ### Env Variables
 The following environment variables are automatically injected into your application.
