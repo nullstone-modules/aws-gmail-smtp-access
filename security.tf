@@ -11,7 +11,7 @@ resource "aws_security_group_rule" "this-secure-smtp-to-world" {
   security_group_id = var.app_metadata["security_group_id"]
   protocol          = "tcp"
   type              = "egress"
-  from_port         = 586
-  to_port           = 586
+  from_port         = 465
+  to_port           = 465
   cidr_blocks       = ["0.0.0.0/0"]
 }
